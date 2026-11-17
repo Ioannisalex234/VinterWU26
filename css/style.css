@@ -1,1 +1,54 @@
-/* Här skrivs all din CSS */
+#wrapper{
+display: grid;
+height: 100vh;
+grid-template-areas: 
+'hd hd'
+'nav nav'
+'as main'
+'as extra'
+'as live'
+'ft1 ft1'
+'ft2 ft2'
+;
+}
+
+.header{
+grid-area: hd;
+background-color: red;
+width:100%
+}
+
+.nav {
+grid-area: nav;
+background-color: blue;
+}
+.aside{
+grid-area: as;
+background-color: green;
+
+}
+
+.main{
+grid-area: main;
+background-color: yellow;
+}
+
+.h1 {
+grid-area: extra;
+
+}
+
+.h2{
+grid-area: live;
+
+}
+
+.footer1{
+grid-area: ft1;
+
+}
+
+.footer2{
+grid-area: ft2;
+
+}
